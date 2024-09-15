@@ -195,6 +195,7 @@ header nav a:hover{
 
 #conocenos{
     background-color: #f5f5f5;
+    padding-top: 2em;
 }
 
 .title{
@@ -306,6 +307,7 @@ header nav a:hover{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    padding-top: 2em;
     padding-bottom: 2em;
 }
 
@@ -365,6 +367,7 @@ header nav a:hover{
 
 #contacto {
     background-color:bisque;
+    padding-top: 2em;
     padding-bottom: 2em;
 }
 
@@ -450,7 +453,32 @@ header nav a:hover{
 
 /*FOOTER*/
 
+footer {
+    background-color: black;
+    padding: 1em 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+footer p {
+    color: #f5f5f5;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+footer p span {
+    text-transform: uppercase;
+}
+
+footer div {
+    color: #f5f5f5;
+}
+
+footer div i {
+    font-size: 1.25em;
+    margin-left: .5em;
+}
 
 
 
